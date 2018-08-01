@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+</head>
+<script>
+  (function (d, k) {
+    var s = d.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://plugins.perfectcorp.com/v1.4/sdk.js?apiKey=' + k;
+    var x = d.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  })(document, 'for-draft');
+</script>
+<div id="YMK-module"></div>
+<script>
+  window.ymkAsyncInit = function () {
+    window.YMK.init({
+      autoOpen: true
+    });
+  }
+</script>
+<br/><br/>
+<button onClick="YMK.applyMakeupBySku('LIP_COLOR_01_01')">apply lip color</button>
+</body>
+</html>
